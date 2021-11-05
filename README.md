@@ -10,9 +10,6 @@
   </ol>
 </details>
 
-## Installation
-*ssss
-
 ## How to add IAP to project
 * Drop to scene prefabButton from Samples~ or create your own prefab with script `IAP_Button.cs`
 ![](Documents~/IAP_button.png)
