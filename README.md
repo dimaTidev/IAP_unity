@@ -1,10 +1,25 @@
 # IAP unity based
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#Installation">Installation</a></li>
+    <li><a href="#How-to-add-IAP-to-project:">How to add IAP to project:</a></li>
+    <li><a href="#How-to-create-and-configure-IAP_Data-files:">How to create and configure IAP_Data files:</a></li>
+    <li><a href="#How-IAP-package-work:">How IAP package work:</a></li> 
+  </ol>
+</details>
+
+## Installation
+*ssss
 
 ## How to add IAP to project:
 * Drop to scene prefabButton from Samples~ or create your own prefab with script `IAP_Button.cs`
 ![](Documents~/IAP_button.png)
 * Assign IAP_Data file to button
+
+
 
 ## How to create and configure IAP_Data files:
 * Create IAP_Data file. Has 2 ways:
