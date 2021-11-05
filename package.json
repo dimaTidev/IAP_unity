@@ -11,7 +11,8 @@
         "url": "https://github.com/dimaTidev/IAP_unity.git"
     },
     "gitDependencies": {
-        "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git#0.0.3"
+        "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git#0.0.3",
+        "com.dimati.networkchecker": "https://github.com/dimaTidev/NetworkChecker.git#0.0.1"
     },
     "dependencies": {
         "com.unity.purchasing": "2.2.2"
