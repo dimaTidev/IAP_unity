@@ -4,10 +4,9 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Installation">Installation</a></li>
     <li><a href="#How-to-add-IAP-to-project">How to add IAP to project</a></li>
-    <li><a href="#How-to-create-and-configure-IAP_Data-files:">How to create and configure IAP_Data files:</a></li>
-    <li><a href="#How-IAP-package-work:">How IAP package work:</a></li> 
+    <li><a href="#How-to-create-and-configure-IAP_Data-files">How to create and configure IAP_Data files</a></li>
+    <li><a href="#How-IAP-package-work">How IAP package work</a></li> 
   </ol>
 </details>
 
@@ -21,7 +20,7 @@
 
 
 
-## How to create and configure IAP_Data files:
+## How to create and configure IAP_Data files
 * Create IAP_Data file. Has 2 ways:
   - First is `BETTER` <br /> ![](Documents~/IAP_ToolsPopup.png)
   - Second <br /> ![](Documents~/IAP_dataCreationPopup.png)
@@ -35,7 +34,7 @@
 Configure IAP_Data file <br />
 ![](Documents~/IAP_dataObject.PNG)
 
-## How IAP package work:
+## How IAP package work
 
 * When `IAP_Buttton` OnEnable => static `IAP_InitializeBroker.TryOnCheck()`;
 * static `IAP_InitializeBroker` Check internet connection.
