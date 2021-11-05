@@ -1,0 +1,19 @@
+{
+    "name": "com.dimati.iap",
+    "displayName": "IAP system",
+    "version": "0.0.1",
+    "unity": "2018.4",
+    "description": "Tools for easy and fast IAP integration",
+    "author": "DimaTi <timofeenkodima@gmail.com> (https://github.com/dimaTidev)",
+    "category": "Nested",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dimaTidev/IAP_unity.git"
+    },
+    "gitDependencies": {
+        "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git#0.0.3"
+    },
+    "dependencies": {
+        "com.unity.purchasing": "2.2.2"
+    }
+}

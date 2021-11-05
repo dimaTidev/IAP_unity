@@ -1,0 +1,16 @@
+{
+    "name": "com.dimati.iap.Runtime",
+    "references": [
+        "com.dimati.singleton.Runtime",
+        "UnityEngine.Purchasing",
+        "com.dimati.networkChecker.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
