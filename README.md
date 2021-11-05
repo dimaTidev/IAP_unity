@@ -3,13 +3,13 @@
 
 ## How to add IAP to project:
 * Drop to scene prefabButton from Samples~ or create your own prefab with script `IAP_Button.cs`
-![](ReadmeFiles~/IAP_button.PNG)
+![](ReadmeFiles~/IAP_button.png)
 * Assign IAP_Data file to button
 
 ## How to create and configure IAP_Data files:
 * Create IAP_Data file. Has 2 ways:
-  - First is `BETTER` ![](Documents~/IAP_ToolsPopup.PNG)
-  - Second ![](Documents~/IAP_dataCreationPopup.PNG)
+  - First is `BETTER` ![](Documents~/IAP_ToolsPopup.png)
+  - Second ![](Documents~/IAP_dataCreationPopup.png)
   
   ```json
   Keep in mind
