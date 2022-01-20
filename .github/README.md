@@ -13,6 +13,7 @@
 </details>
 
 ## How to add IAP to project
+* Download [Google IAP plugin](https://developer.android.com/google/play/billing/unity#import-plugin)
 * Drop to scene prefabButton from Samples~ or create your own prefab with script `IAP_Button.cs`
 ![](Images/IAP_button.png)
 * Assign IAP_Data file to button
