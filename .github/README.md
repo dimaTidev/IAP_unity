@@ -13,7 +13,7 @@
 </details>
 
 # !!! WARNING !!! 
-Folder in Plugins/UnityChannels  Must be Deleted if exist! Otherwise Google Play Ban your application with attention `AliPay wanna permission to phone number`
+Folder in Plugins/UnityChannels  Must be Deleted if exist! Otherwise Google Play will Ban your application with message `AliPay wanna permission to phone number`
 
 ## How to add IAP to project
 * PackageManager.`UnityIAP` Update to version `2.2.2`
