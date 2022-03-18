@@ -16,11 +16,11 @@
 Folder in Plugins/UnityChannels  Must be Deleted if exist! Otherwise Google Play will Ban your application with message `AliPay wanna permission to phone number`
 
 ## How to add IAP to project
-* PackageManager.`UnityIAP` Update to version `2.2.2`
-* Enable `UnityAnalytics` and `UnityIAP`
+* PackageManager.`UnityIAP` Update to version `4.1.3`
+* Enable `UnityAnalytics` and `UnityIAP` services
 * Add GooglePlay public key to UnityIAP
 * Create UnityIAP Tangles => Obfuscate GooglePublicKey
-* Create file `IAPTangles.asmdef` in folder with generated Tangles (Assets/Plugins/UnityPurchasing/Generated/)
+* Coppy file `.asmdef` from `Samples~/TagleAsmdef~/` to folder with generated Tangles (Assets/Plugins/UnityPurchasing/Generated/)
 * Download package [Google IAP plugin](https://developer.android.com/google/play/billing/unity#import-plugin) => google-play-plugins-1.6.0.unitypackage
 * Import this package to project
 * If needed Enable #define RECEIPT_VALIDATION 
