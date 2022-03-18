@@ -1,6 +1,7 @@
 
 # IAP unity based
-[![Unity Version](https://img.shields.io/badge/unity-2018.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
+![Unity Version](https://img.shields.io/badge/Unity-2020.3.25-blue.svg)
+![Unity Version](https://img.shields.io/badge/UnityIAP-4.1.3-blue.svg)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -16,13 +17,13 @@
 Folder in Plugins/UnityChannels  Must be Deleted if exist! Otherwise Google Play will Ban your application with message `AliPay wanna permission to phone number`
 
 ## How to add IAP to project
-* PackageManager.`UnityIAP` Update to version `2.2.2`
-* Enable `UnityAnalytics` and `UnityIAP`
+* PackageManager.`UnityIAP` Update to version `4.1.3`
+* Enable `UnityAnalytics` and `UnityIAP` services
 * Add GooglePlay public key to UnityIAP
 * Create UnityIAP Tangles => Obfuscate GooglePublicKey
-* Create file `IAPTangles.asmdef` in folder with generated Tangles (Assets/Plugins/UnityPurchasing/Generated/)
-* Download package [Google IAP plugin](https://developer.android.com/google/play/billing/unity#import-plugin) => google-play-plugins-1.6.0.unitypackage
-* Import this package to project
+* Coppy file `.asmdef` from `Samples~/TagleAsmdef~/` to folder with generated Tangles (Assets/Plugins/UnityPurchasing/Generated/)
+* <s>Download package [Google IAP plugin](https://developer.android.com/google/play/billing/unity#import-plugin) => google-play-plugins-1.6.0.unitypackage</s>
+* <s>Import this package to project</s>
 * If needed Enable #define RECEIPT_VALIDATION 
 * Drop to scene prefabButton from Samples~ or create your own prefab with script `IAP_Button.cs`
 ![](Images/IAP_button.png)
