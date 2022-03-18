@@ -1,5 +1,5 @@
-﻿#define LOG_USE
-#define RECEIPT_VALIDATION
+﻿//#define LOG_USE
+//#define RECEIPT_VALIDATION
 using System;
 using System.Collections.Generic;
 using UnityEngine;
