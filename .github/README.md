@@ -22,8 +22,8 @@ Folder in Plugins/UnityChannels  Must be Deleted if exist! Otherwise Google Play
 * Add GooglePlay public key to UnityIAP
 * Create UnityIAP Tangles => Obfuscate GooglePublicKey
 * Coppy file `.asmdef` from `Samples~/TagleAsmdef~/` to folder with generated Tangles (Assets/Plugins/UnityPurchasing/Generated/)
-* Download package [Google IAP plugin](https://developer.android.com/google/play/billing/unity#import-plugin) => google-play-plugins-1.6.0.unitypackage
-* Import this package to project
+* <s>Download package [Google IAP plugin](https://developer.android.com/google/play/billing/unity#import-plugin) => google-play-plugins-1.6.0.unitypackage</s>
+* <s>Import this package to project</s>
 * If needed Enable #define RECEIPT_VALIDATION 
 * Drop to scene prefabButton from Samples~ or create your own prefab with script `IAP_Button.cs`
 ![](Images/IAP_button.png)
