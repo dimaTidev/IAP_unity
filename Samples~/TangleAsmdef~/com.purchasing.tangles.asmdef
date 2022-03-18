@@ -1,0 +1,16 @@
+{
+    "name": "com.purchasing.tangles",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d0bf1e9f644394e1de13e6ae02458b07"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

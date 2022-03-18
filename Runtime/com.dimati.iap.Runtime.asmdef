@@ -1,16 +1,23 @@
 {
     "name": "com.dimati.iap.Runtime",
+    "rootNamespace": "",
     "references": [
         "com.dimati.singleton.Runtime",
+        "com.dimati.networkChecker.Runtime",
+        "com.dimati.system.message.Runtime",
+        "com.purchasing.tangles",
         "UnityEngine.Purchasing",
-        "com.dimati.networkChecker.Runtime"
+        "UnityEngine.Purchasing.Stores",
+        "UnityEngine.Purchasing.SecurityStub",
+        "UnityEngine.Purchasing.SecurityCore"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

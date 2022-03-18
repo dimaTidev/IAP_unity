@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-//TODO: проверить интернет перед покупкой и инициализацию IAP_manager - это должно вызвать fullScreenLoad
-//TODO: проверить интернет в OnEnable кнопок и инициализировать IAP_manager - это должно вызвать fullScreenLoad
+//проверяет интернет перед покупкой и инициализацию IAP_manager - это должно вызвать fullScreenLoad
+//проверяет интернет в OnEnable кнопок и инициализировать IAP_manager - это должно вызвать fullScreenLoad
 //      соответственно проверка интернета и инициализация должны перекрывать весь экран
 
-//TODO: Если IAP_manager не смог инициализироваться то выдать сообщение на экран
+// Если IAP_manager не смог инициализироваться то выдать сообщение на экран
 
 public static class IAP_InitializeBroker
 {
@@ -23,8 +23,7 @@ public static class IAP_InitializeBroker
         if(_callbackOnCompleted != null)
             callbackOnCompleted += _callbackOnCompleted;
 
-        //TODO: Internet Check
-        DateTimeInternet.CheckNetworkConnection(OnNetworkCheckCompleted); 
+        InternetConnection.CheckNetworkConnection(OnNetworkCheckCompleted);
         //OnNetworkCheckCompleted(true); //Test
     }
 
@@ -44,13 +43,11 @@ public static class IAP_InitializeBroker
             }
 
             if (!IAP_Manager.Instance.IsInitialized)
-                IAP_Manager.Instance.InitializePurchasing(OnInitPurchasingSuccess);
+                IAP_Manager.Instance.InitializePurchasing(OnComplete, () => callbackOnCompleted = null);
             else
                 OnComplete();
         }
     }
-
-    static void OnInitPurchasingSuccess() => OnComplete();
 
     static void OnComplete()
     {

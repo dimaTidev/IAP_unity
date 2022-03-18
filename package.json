@@ -1,20 +1,35 @@
 {
     "name": "com.dimati.iap",
     "displayName": "IAP system",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "unity": "2018.4",
+    "unityRelease": "",
     "description": "Tools for easy and fast IAP integration",
     "author": "DimaTi <timofeenkodima@gmail.com> (https://github.com/dimaTidev)",
+    "keywords": [],
     "category": "Nested",
     "repository": {
         "type": "git",
         "url": "https://github.com/dimaTidev/IAP_unity.git"
     },
     "gitDependencies": {
-        "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git#0.0.3",
-        "com.dimati.networkchecker": "https://github.com/dimaTidev/NetworkChecker.git#0.0.1"
+        "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git#0.2.0",
+        "com.dimati.networkchecker": "https://github.com/dimaTidev/NetworkChecker.git#1.1.0",
+        "com.dimati.system.message": "https://github.com/dimaTidev/SystemMessages.git#1.0.1"
     },
     "dependencies": {
-        "com.unity.purchasing": "2.2.2"
-    }
+        "com.unity.purchasing": "4.1.3"
+    },
+    "samples": [
+        {
+            "displayName": "Example scene",
+            "description": "Example scene setup",
+            "path": "Samples~/ExampleScene"
+        },
+        {
+            "displayName": "asmdef file for Tangles",
+            "description": "asmdef file for Tangles",
+            "path": "Samples~/TangleAsmdef"
+        }
+    ]
 }

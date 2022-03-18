@@ -32,5 +32,18 @@ public class Iap_data : ScriptableObject
     public Sprite Sprite => sprite;
 
     public string Prize => prize;
-    public string PreviewPrice => previewPrice;
+    public string PreviewPrice 
+    {
+        get
+        {
+            if (IAP_Manager.Instance)
+            {
+                if (IAP_Manager.Instance.Get_ProductByID(productID) == null)
+                    return previewPrice;
+                else
+                    return IAP_Manager.Instance.Get_ProductByID(productID).metadata.localizedPriceString;
+            }
+            return previewPrice;
+        } 
+    }
 }

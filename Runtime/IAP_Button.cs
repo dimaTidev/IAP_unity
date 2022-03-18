@@ -18,7 +18,7 @@ public class IAP_Button : MonoBehaviour, IPointerClickHandler
 
     void OnEnable()
     {
-        IAP_InitializeBroker.TryOnCheck();
+        IAP_InitializeBroker.TryOnCheck(() => Refresh(data));
         Refresh(data);
     }
 
