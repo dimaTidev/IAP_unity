@@ -1,6 +1,7 @@
 
 # IAP unity based
-[![Unity Version](https://img.shields.io/badge/unity-2018.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
+![Unity Version](https://img.shields.io/badge/Unity-2020.3.25-blue.svg)
+![Unity Version](https://img.shields.io/badge/UnityIAP-4.1.3-blue.svg)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
