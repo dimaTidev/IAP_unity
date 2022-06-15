@@ -58,5 +58,5 @@ Configure IAP_Data file <br />
 
 ----
 * All `rewards` must be configured in `IAP_data` file in `UnityEvent`
-* No Internet Message handled by other package
-* No Internet callback handled by other package
+* No_Internet_Message - handled by other package
+* No_Internet_callback - handled by other package
